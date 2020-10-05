@@ -12,5 +12,5 @@ spec:
         - name: web
           containerPort: 80
           protocol: TCP
-  securityContext:
-    runAsNonRoot: true
+      securityContext:
+        runAsNonRoot: true
