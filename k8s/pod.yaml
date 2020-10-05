@@ -14,3 +14,5 @@ spec:
           protocol: TCP
       securityContext:
         runAsNonRoot: true
+  securityContext:
+    readOnlyRootFilesystem: true
